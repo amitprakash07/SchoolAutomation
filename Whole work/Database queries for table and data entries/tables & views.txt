@@ -1,0 +1,68 @@
+
+
+TNAME                          TABTYPE  CLUSTERID                               
+------------------------------ ------- ----------                               
+ITEMS                          TABLE                                            
+ITEM_REQ                       TABLE                                            
+JOB                            TABLE                                            
+LAB                            TABLE                                            
+LAB_ITEM                       TABLE                                            
+LIBRARY_BOOK                   TABLE                                            
+LIBRARY_REQ                    TABLE                                            
+LIBRARY_RETRIEVAL              TABLE                                            
+LOGIN                          TABLE                                            
+MAINTAINANCE                   TABLE                                            
+PHOTO                          TABLE                                            
+
+TNAME                          TABTYPE  CLUSTERID                               
+------------------------------ ------- ----------                               
+RESULT                         TABLE                                            
+ROOM                           TABLE                                            
+SALARY                         TABLE                                            
+SPORTS                         TABLE                                            
+SPORTS_ITEM                    TABLE                                            
+STUDENT                        TABLE                                            
+STUDENT_EVENT                  TABLE                                            
+STUDENT_SPORTS                 TABLE                                            
+STUD_ATTEND                    TABLE                                            
+SUBJECT                        TABLE                                            
+ADMIN_REQ                      TABLE                                            
+
+TNAME                          TABTYPE  CLUSTERID                               
+------------------------------ ------- ----------                               
+CLASS                          TABLE                                            
+DEPARTMENT                     TABLE                                            
+EMPLOYEE                       TABLE                                            
+EMP_ATTEND                     TABLE                                            
+ENQUIRY                        TABLE                                            
+EVENT                          TABLE                                            
+FEES                           TABLE                                            
+FEES_COLLECTION                TABLE                                            
+CLASS_VIEW                     VIEW                                             
+EVENT_VIEW                     VIEW                                             
+STUD_LIB_RETRIEVAL             VIEW                                             
+
+TNAME                          TABTYPE  CLUSTERID                               
+------------------------------ ------- ----------                               
+ITEM_VIEW                      VIEW                                             
+DEPARTMENT_ITEMS               VIEW                                             
+EMP_LIB_RETRIEVAL              VIEW                                             
+SPORTS_VIEW                    VIEW                                             
+SUBJECTS                       VIEW                                             
+LABORATORY                     VIEW                                             
+JOB_VIEW                       VIEW                                             
+ADMIN_REQUIREMENT              VIEW                                             
+ACTIVITIES                     VIEW                                             
+ITEM_REQUIREMENT               VIEW                                             
+LAB_REQ                        VIEW                                             
+
+TNAME                          TABTYPE  CLUSTERID                               
+------------------------------ ------- ----------                               
+DEPT_VIEW                      VIEW                                             
+LAB_ITEM_VIEW                  VIEW                                             
+FEE                            VIEW                                             
+LIBRARY                        VIEW                                             
+
+48 rows.
+
+

@@ -1,0 +1,6 @@
+1. type "imp" at command prompt
+2. use 	username: system
+	password: admin
+3. Now follow the steps as asked at the prompt.
+
+Note: Make sure to create user ias10cbse before importing dump(*.dmp) file

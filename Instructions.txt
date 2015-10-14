@@ -1,0 +1,26 @@
+Please Follow the following steps to deploy the application
+
+1. Install oracle 10g,java.
+2. Create user as
+	username: ias10cbse
+	password: admin
+   in oracle	
+3. Import ias10cse.dmp file (as described in database folder) 
+4. Copy "apache-tomcat-6.0.20" in "c drive".
+5. Set the following environment variable
+	CATALINA_HOME=c:\apache-tomcat-6.0.20
+    i.e apache tomcat folder path
+6. copy the "SchoolAutomation" folder in "%CATALINA_HOME%/webapps/" folder
+7. Run the batch file "%CATALINA_HOME%/bin/startup.bat" from the
+   command prompt to start the server.
+8. Start your web browser and use the following address to access the
+   application:
+	http://localhost:8080/SchoolAutomation/
+9. For shutting down the server run the following batch file from
+   command prompt:
+		"%CATALINA_HOME%/bin/shutdown.bat"
+
+
+For creating oracle user please read "create_user" file in Database folder	
+For importing dump file please read "import.txt" file in Database folder
+For server problems please read "server_prob.txt"

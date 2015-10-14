@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+<context-param>
+    <param-name>maxbook</param-name>
+    <param-value>5</param-value>
+</context-param>
+
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>amit.Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>submit</servlet-name>
+        <servlet-class>amit.confirm</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>submit</servlet-name>
+        <url-pattern>/submit</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>confirm</servlet-name>
+        <servlet-class>amit.submit</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>confirm</servlet-name>
+        <url-pattern>/confirm</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>studentadmission</servlet-name>
+        <servlet-class>amit.submit</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>studentadmission</servlet-name>
+        <url-pattern>/studentadmission</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>feesubmit</servlet-name>
+        <servlet-class>amit.feesubmit</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>feesubmit</servlet-name>
+        <url-pattern>/feesubmit</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>checksid</servlet-name>
+        <servlet-class>amit.checksid</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>checksid</servlet-name>
+        <url-pattern>/checksid</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>try</servlet-name>
+        <servlet-class>amit.try1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>try</servlet-name>
+        <url-pattern>/try</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>ask</servlet-name>
+        <servlet-class>amit.ask</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ask</servlet-name>
+        <url-pattern>/ask</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>recruitment</servlet-name>
+        <servlet-class>amit.recruitment</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>recruitment</servlet-name>
+        <url-pattern>/recruitment</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newroom</servlet-name>
+        <servlet-class>amit.newroom</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newroom</servlet-name>
+        <url-pattern>/newroom</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newdepartment</servlet-name>
+        <servlet-class>amit.newdepartment</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newdepartment</servlet-name>
+        <url-pattern>/newdepartment</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>newfee</servlet-name>
+        <servlet-class>amit.newfee</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newfee</servlet-name>
+        <url-pattern>/newfee</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>newjob</servlet-name>
+        <servlet-class>amit.newjob</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newjob</servlet-name>
+        <url-pattern>/newjob</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>newclass</servlet-name>
+        <servlet-class>amit.newclass</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newclass</servlet-name>
+        <url-pattern>/newclass</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>newbook</servlet-name>
+        <servlet-class>amit.newbook</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newbook</servlet-name>
+        <url-pattern>/newbook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newitem</servlet-name>
+        <servlet-class>amit.newitem</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newitem</servlet-name>
+        <url-pattern>/newitem</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newsubject</servlet-name>
+        <servlet-class>amit.newsubject</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newsubject</servlet-name>
+        <url-pattern>/newsubject</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newevent</servlet-name>
+        <servlet-class>amit.newevent</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newevent</servlet-name>
+        <url-pattern>/newevent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newlab</servlet-name>
+        <servlet-class>amit.newlab</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newlab</servlet-name>
+        <url-pattern>/newlab</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newlabitem</servlet-name>
+        <servlet-class>amit.newlabitem</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newlabitem</servlet-name>
+        <url-pattern>/newlabitem</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newbookrequired</servlet-name>
+        <servlet-class>amit.bookrequired</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newbookrequired</servlet-name>
+        <url-pattern>/bookrequired</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+    <servlet-name>newsports</servlet-name>
+    <servlet-class>amit.newsports</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>newsports</servlet-name>
+    <url-pattern>/sports</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>adminreq</servlet-name>
+    <servlet-class>amit.adminreq</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>adminreq</servlet-name>
+    <url-pattern>/adminreq</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>attendance</servlet-name>
+    <servlet-class>amit.attendance</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>attendance</servlet-name>
+    <url-pattern>/attendance</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>booksearch</servlet-name>
+    <servlet-class>amit.booksearch</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>booksearch</servlet-name>
+    <url-pattern>/booksearch</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>book_issue</servlet-name>
+    <servlet-class>amit.book_issue</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>book_issue</servlet-name>
+    <url-pattern>/book_issue</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>return_book</servlet-name>
+    <servlet-class>amit.return_book</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>return_book</servlet-name>
+    <url-pattern>/return_book</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>salary</servlet-name>
+    <servlet-class>amit.salary</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>salary</servlet-name>
+    <url-pattern>/salary</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>result</servlet-name>
+    <servlet-class>amit.result</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>result</servlet-name>
+    <url-pattern>/result</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>seeattendance</servlet-name>
+    <servlet-class>amit.seeattendance</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>seeattendance</servlet-name>
+    <url-pattern>/seeattendance</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>seeresult</servlet-name>
+    <servlet-class>amit.seeresult</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>seeresult</servlet-name>
+    <url-pattern>/seeresult</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>amit.logout</servlet-class>
+    </servlet>
+    
+
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+<session-config>
+    <session-timeout>30</session-timeout>
+</session-config>
+
+<welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+</welcome-file-list></web-app>

@@ -1,0 +1,7 @@
+Follow the steps as below to create user
+1.Login (from command prompt) in oracle database as
+	username: sys as sysdba
+	password: admin
+2.use the following queries to create user
+	1. create user ias10cbse identified by admin;
+	2. grant dba to ias10cbse;
